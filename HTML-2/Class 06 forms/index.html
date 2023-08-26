@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+
+    <style>
+        form{
+            width: 320px;
+        }
+        input{ 
+            /* width: 360px; */
+        }
+    </style>
+
+</head>
+<body style="background-color: mediumpurple;">
+   <!-- <center><h1>aula formularios</h1></center>
+    <form action="" method="get">
+       <label for="name">Name:</label>
+        <input 
+        type="text"
+        id="name"
+      name="nome"
+       placeholder="digite aqui"
+       required
+      >
+        <button type="submit">enviar</button>
+    </form> -->
+
+<form action="">
+
+<fieldset>
+  <section>
+
+      <legend>login</legend>
+     <label for="email" name="email">email</label><br>
+      <input type="email" name="email" id="email">
+      
+  </section>
+<section>
+
+    <label for="password" name="password">password</label><br>
+    <input type="password" name="password" id="password">
+  <br>  <button type="submit">submit</button> <br>
+</section>
+</fieldset>
+
+
+</form>
+<br><br>
+<form action="" method="get">
+    <input 
+    type="number"
+    placeholder="fale sua idade"
+    min="0"
+    max="100"
+    step=""
+    >
+<br>
+<br>
+    <input type="datetime-local"
+    
+    >
+
+    <br><br>
+    <input type="range"
+    min="1"
+    max="110"
+    value="60"
+    step="0">
+    <br><br>
+    
+    <input type="file"
+    accept=".pdf"
+    multiple>
+<br> <br>
+    <!--image/* video/*  audio/*  .pdf(ou qualquer extensão do arquivo que voce deseja)-->
+
+    <input type="color"
+    value="#9370DB"
+    list="GroupColorTheme">
+
+    <datalist id="GroupColorTheme">
+        <option>"#9370DB"</option>
+        <option>"#5664ED</option>
+        <option>"#8899AA"</option>
+        <option>"#8826AB"</option>
+        <option>"#4477DD"</option>
+        <option>"#7676BB"</option>
+
+    </datalist>
+
+    <br><br>
+<label for="HTML">HTML</label>
+    <input type="checkbox">
+   <label for="CSS">CSS</label>
+    <input type="checkbox">
+
+    <br><br>
+  <label for="yes">sim</label>
+    <input type="radio" name="term" id="yes">
+    <label for="no">não</label>
+    <input type="radio" name="term" id="no">
+
+    <br><br>
+
+    <select name="fruits" id="fruits">
+       <option value="manga">Manga</option>
+       <option value="coentro">Coentro</option>
+       <option value="acerola">acerola</option>
+       <option value="acelga">acelga</option>
+           
+      
+    </select>
+
+    <br><br>
+<button type="submit">aaaaaaaa</button>
+
+<br><br>
+<label for="observações">observações</label>
+<textarea 
+name=""
+ id="" 
+cols="30"
+ rows="10"
+ maxlength="320"
+ ></textarea>
+</form>
+
+
+</body>
+</html>

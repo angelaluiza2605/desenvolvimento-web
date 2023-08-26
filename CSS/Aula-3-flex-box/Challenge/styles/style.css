@@ -1,0 +1,50 @@
+Body{
+background-color: #E67817;
+
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-logo{
+    width: 96px;
+    
+}
+
+nav{
+    padding: 24px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+ ul li a:hover{
+    color:#E67817 ;
+    background-color: blanchedalmond;
+    
+    
+}
+
+.barra{
+    background-color:#310F99;
+    
+}
+
+ul li a{
+    color: #E6C239;
+    font-size: 24px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.select-nav{
+
+color: #73cdfc;
+
+}

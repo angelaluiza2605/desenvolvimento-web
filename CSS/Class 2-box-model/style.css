@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+    padding: 0px;
+}
+
+
+.square{
+    background-color: pink;
+    height: 120px;
+    width: 120px;
+    padding: 16px;
+    /*box-sizing: border-box;
+    border:  24px dotted rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;*/
+
+  }
+  
+#y{
+  
+ /* margin: 7px 15px 24px 30px;*/
+ /* background-color: rgb(255, 0, 0);
+  position: absolute;
+  
+  top: 1px;
+  z-index: 1px;
+  right: 30;*/
+display: inline-block;
+margin: 32px 32px 0 0;
+background-color: aqua;
+
+}
+
+
+#x{
+  display: inline-block;
+  margin: 32px 0 0 32px;
+  background-color: blueviolet;
+}
+
+/*#z{
+  background-color: rgb(134, 21, 240);
+  margin-top: 70px;
+  margin-left: 40px;
+  position: absolute;
+  top:33px;
+  right: px;
+  z-index: 3;
+}*/
+
+body{
+
+}

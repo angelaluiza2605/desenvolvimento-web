@@ -1,0 +1,52 @@
+.container {
+  border: 3px solid pink;
+  /*padding: 8px;*/
+  color: rgb(40, 32, 36);
+  display: flex;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+}
+
+.square:nth-child(1) {
+  background: rosybrown;
+align-self: flex-end;
+order: 2;
+}
+
+.square:nth-child(2) {
+  background: rgb(255, 0, 98);
+  padding: 30px;
+ align-self: flex-start;
+ order: 3;
+}
+
+.square:nth-child(3) {
+  background: palevioletred;
+  padding: 40px;
+  align-self: self-end;
+  order: 1;
+
+}
+
+.square:nth-child(4) {
+  background-color: hotpink;
+  padding: 60px;
+}
+
+.square:nth-child(5) {
+  background-color: fuchsia;
+
+  padding: 70px;
+}
+
+.square:nth-child(6) {
+  background-color: purple;
+  padding: 80px;
+}
