@@ -9,4 +9,4 @@ console.log (parseInt ( numero2));
 let soma = numero1 + numero2
 console.log(soma);
 
-alert("A soma do  " + numero1 + numero2 + " é " + soma);
+alert("A soma do " + numero1 + " junto com o " + numero2 + " é " + soma);
